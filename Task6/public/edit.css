@@ -1,0 +1,36 @@
+body{
+     background-color: #dffbf6f1;
+     font-family: "Barlow", sans-serif;
+}
+h1{
+     margin-left: 10px;
+}
+h2 b{
+     color: #043b5d;
+     font-size: 13.7px;
+     font-weight: 1000;
+     font-family: "Edu AU VIC WA NT Hand", cursive;
+     margin-left: 10px;
+}
+p{
+     margin-left: 10px;
+     font-family: "Edu AU VIC WA NT Hand", cursive;
+     color: #124146;
+}
+form textarea{
+     height: 200px;
+     width: 600px;
+     border-radius: 20px;
+     border: none;
+}
+form button{
+     height: 40px;
+     width: 200px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(12, 168, 186);
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     cursor: pointer;
+}

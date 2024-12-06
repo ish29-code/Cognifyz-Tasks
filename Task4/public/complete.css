@@ -1,0 +1,10 @@
+body{
+     background: linear-gradient(90deg,#65ef50,rgb(111, 247, 217));
+}
+
+h1{
+     margin-top: 300px;
+     margin-left: 500px;
+     font-size: 60px;
+     font-family: "PT Sans", sans-serif;
+}

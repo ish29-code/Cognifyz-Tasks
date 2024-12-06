@@ -1,0 +1,74 @@
+body{
+     background-color: #dffbf6f1;
+     font-family: "Barlow", sans-serif;
+}
+h1{
+     margin-left: 10px;
+}
+div.chat{
+     width: 800px;
+     border: 2px solid rgb(23, 23, 24);
+     margin-bottom: 20px;
+     margin-top: 0px;
+     border-radius: 20px;
+}
+p.from{
+     font-size: 20px;
+     font-weight: 700;
+     color: #080808c8;
+}
+.new{
+     position: absolute;
+     top: 20px;
+     left: 250px;
+}
+button.new{
+     height: 40px;
+     width: 200px;
+     margin-bottom: 20px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(12, 168, 186);
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     cursor: pointer;
+}
+div .delete{
+     margin-bottom: 5px;
+     height: 40px;
+     width: 200px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(167, 212, 216);
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     cursor: pointer;
+}
+div .edit{
+     margin-bottom: 15px;
+     height: 40px;
+     width: 200px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(12, 168, 186);
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     cursor: pointer;
+}
+div.contents{
+     margin-left: 10px;
+     margin-top: 0px;
+}
+div p.recived{
+     font-size: 15px;
+     font-weight: 700;
+     color: #080101c8;
+}
+div .datetime{
+     font-size: 10.5px;
+     font-weight: 1000;
+     color: #101010c8;  
+}

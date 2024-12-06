@@ -1,0 +1,33 @@
+body{
+     background: linear-gradient(90deg,rgb(67, 67, 187),rgb(78, 147, 232),rgb(85, 145, 228));
+     font-family: "DM Sans", sans-serif;
+}
+div h1{
+     margin-left: 500px;
+     color: white;
+     font-size: 70px;
+}
+div form{
+     margin-top: 130px;
+     margin-left: 520px;
+     font-size: 30px;
+     font-weight: 700;
+     color: rgb(40, 38, 38);
+}
+form input{
+     height: 40px;
+     width: 250px;
+     border-radius: 20px;
+     border: none;
+}
+form button{
+     height: 40px;
+     width: 100px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(16, 16, 16);
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     cursor: pointer;
+}

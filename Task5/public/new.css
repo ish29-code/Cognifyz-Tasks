@@ -1,0 +1,33 @@
+body{
+     background-color: plum;
+     font-family: "Barlow", sans-serif;
+}
+form button{
+     height: 40px;
+     width: 200px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(115, 5, 142);
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     cursor: pointer;
+}
+form textarea{
+     height: 200px;
+     width: 600px;
+     border-radius: 20px;
+     border: none;
+}
+form input{
+     height: 30px;
+     width: 250px;
+     border-radius: 20px;
+     border: none;
+}
+h1{
+     font-size: 30px;
+     font-weight: 700px;
+     margin-bottom: 20px;
+     text-decoration: double #620162;
+}

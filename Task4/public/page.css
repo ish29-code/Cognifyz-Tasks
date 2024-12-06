@@ -1,0 +1,101 @@
+body{
+     height: 100vh;
+     width: 100%;
+     background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+     background-size: 300% 300%;
+     animation: color 8s ease-in-out infinite;   
+}
+.container{
+     height: 500px;
+     width: 400px;
+     display: flex;
+     position: absolute;
+     left: 39%;
+     top: 15%;
+     font-family: "Roboto", serif;
+     background:rgba(0, 0, 0, 0.127);
+     backdrop-filter: blur(40px);
+     -webkit-backdrop-filter: blur(40px);
+     border-radius: 20px;
+     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.664);
+     border: 2px black;
+}
+.container .all{
+     margin: 10px;
+     font-size: 18px;
+     font-weight: 500;
+}
+.container .input1{
+     height: 28px;
+     width: 240px;
+     border-radius: 4px;
+     border: none;
+     outline-color: #2a292a;
+}
+.container button{
+     margin: 10px;
+}
+.container button{
+     height: 40px;
+     width: 100px;
+     border-radius: 15px;
+     font-size: 17px;
+     font-weight: 500;
+     border: none;
+     background: black;
+     color: white;
+     cursor: pointer;
+}
+.container label.space{
+     margin-right: 10px;
+}
+.container .name1{
+     margin-top: 40px;
+     margin-bottom: 30px;
+}
+.container .email1{
+     margin-top: 40px;
+     margin-bottom: 30px;
+}
+.container .password1{
+     margin-top: 40px;
+     margin-bottom: 30px;
+}
+.container .radio1{
+     margin-top: 70px;
+}
+.container h2{
+     margin: 10px;
+     font-size: 28px;
+     font-weight: 600;
+}
+.container #name_error{
+     font-size: 13px;
+     font-weight: 600;
+     color: #fc100c;
+     margin-left: 65px; ;
+}
+.container #email_error{
+     font-size: 13px;
+     font-weight: 600;
+     color: #fc100c;
+     margin-left: 65px; ;
+}
+.container #pass_error{
+     font-size: 13px;
+     font-weight: 600;
+     color: #fc100c;
+     margin-left: 100px; ;
+}
+
+@keyframes color{
+     0%{
+          background-position: 0 50%;
+     }
+     50%{
+          background-position: 100% 50%;
+     }
+     100%{
+          background-position: 0 50%;
+     }
+}

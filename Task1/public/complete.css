@@ -1,0 +1,32 @@
+*{
+     background: rgb(251, 254, 250);
+}
+
+img{
+     height: 200px;
+     width: 400px;
+     margin: auto;
+     margin-top: 200px;
+     margin-left: 600px;
+}
+h1{
+     color: #41ae46;
+     position: absolute;
+     left: 600px;
+     font-size: 35px;
+     font-weight: 700;
+     font-family: "Quicksand", sans-serif;
+}
+button{
+     height: 40px;
+     width: 150px;
+     background-color: #a8e473;
+     font-size: 16px;
+     font-weight: 500;
+     border-radius: 25px;
+     position: absolute;
+     bottom: 160px;
+     left: 730px;
+     cursor: pointer;
+
+}

@@ -1,0 +1,30 @@
+body{
+     background-image: linear-gradient(to top right,#a9f477,#fcaad6);
+     min-height: 100vh;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: monospace;
+}
+.carousel{
+     height: 600px;
+     width: 900px;
+     box-shadow: 8px 9px 9px rgba(55, 54, 54, 0.666);
+     background-image: linear-gradient(to top right,#8fe655,#f13398);
+}
+form button{
+     height: 40px;
+     width: 150px;
+     border: none;
+     border-radius: 20px;
+     background-color: black;
+     color: white;
+     font-weight: 700px;
+
+}
+.carousel-item h5 {
+     color: #0e0d0d;
+     font-weight: 755;
+     font-size: 33px;
+}

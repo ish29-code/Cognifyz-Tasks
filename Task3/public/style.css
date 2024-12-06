@@ -1,0 +1,18 @@
+body{
+     background: url("\maintask2page.png");
+     background-size: cover;
+}
+button{
+     width: 250px;
+     height: 70px;
+     font-size: 40px;
+     border-radius: 20px;
+     position: absolute;
+     top: 260px;
+     left: 150px;
+     background-color: rgb(143, 212, 130);
+     color:whitesmoke;
+     font-family: "Sour Gummy", sans-serif;
+     cursor: pointer;
+     
+}

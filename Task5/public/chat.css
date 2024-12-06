@@ -1,0 +1,70 @@
+body{
+     background-color: plum;
+     font-family: "Barlow", sans-serif;
+}
+
+h1{
+     color: rgb(28, 26, 26);
+     margin-left: 10px;
+}
+div.post{
+     width: 500px;
+     border: 2px solid purple;
+     margin-bottom: 20px;
+     margin-top: 0px;
+     border-radius: 20px;
+}
+div.contents{
+     margin-left: 10px;
+     margin-top: 0px;
+}
+.new{
+     position: absolute;
+     top: 20px;
+     left: 250px;
+}
+.new button{
+     height: 40px;
+     width: 200px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(115, 5, 142);
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     cursor: pointer;
+}
+div a{
+     margin-left: 10px;
+}
+.delete button{
+     margin-bottom: 5px;
+     height: 40px;
+     width: 200px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(204, 93, 232);
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     cursor: pointer;
+}
+.edit button{
+     margin-bottom: 15px;
+     height: 40px;
+     width: 200px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(115, 5, 142);
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     cursor: pointer;
+}
+a{
+     text-decoration: none;
+     font-size: 14px;
+     font-size: 600;
+     font-family: "Edu AU VIC WA NT Hand", cursive;
+     color: rgba(92, 3, 102, 0.648);
+}

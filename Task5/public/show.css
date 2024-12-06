@@ -1,0 +1,21 @@
+body{
+     background-color: plum;
+     font-family: "Barlow", sans-serif;
+}
+h1{
+     font-size: 30px;
+     font-weight: 700px;
+     margin-bottom: 20px;
+     text-decoration: double #620162;
+}
+div.post{
+     height: 100vh;
+     width: 700px;
+}
+.post h4{
+     font-size: 15px;
+     color: #8307a2bc;
+}
+.post h3{
+     color: #3d013f;
+}

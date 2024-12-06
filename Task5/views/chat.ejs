@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Daily Posts</title>
+     <link rel="stylesheet" href="/chat.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <h1>Daily Posts</h1>
+     <form class="new" method="get" action="http://localhost:5000/posts/new">
+          <button>Create new post</button>
+     </form>
+     <% for(post of posts){%>
+          <div class="post">
+               <div class="contents">
+                    <h3 class="username"><%= post.username %><a class="see" href="http://localhost:5000/posts/<%=post.id%>">See detail post</a></h3>
+                    <h4 class="content"><%= post.content %></h4>
+
+                    <!--<form class="see" method="get" action="http://localhost:5000/posts/<%=post.id%>">
+                         <button>See post in detail</button>
+                    </form>-->
+                    <form class="edit" method="post" action="http://localhost:5000/posts/<%=post.id%>/edit"><button>Edit </button></form>
+                    <form class="delete" action="/posts/<%= post.id %>?_method=DELETE" method="POST"><button type="submit">Delete</button></form>
+                   <!-- other HTML code for displaying posts -->
+               </div>
+          </div>
+     <% } %>
+</body>
+</html>

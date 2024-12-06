@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Registration Form</title>
+     <icon rel="success" href="\success.png"></icon>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+     <div class="container">
+          <div class="title">Registration</div>
+          <form action="/start/submit" method="post">
+               <div class="user-detail">
+                    <div class="input-detail">
+                         <span class="details">Full Name</span>
+                         <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-detail">
+                         <span class="details">Username</span>
+                         <input type="text" placeholder="Enter your username" required>
+                    </div>
+                    <div class="input-detail">
+                         <span class="details">Email</span>
+                         <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-detail">
+                         <span class="details">Phone Number</span>
+                         <input type="text" placeholder="Enter your number" required>
+                    </div>
+                    <div class="input-detail">
+                         <span class="details">Password</span>
+                         <input type="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="input-detail">
+                         <span class="details">Confirm Password</span>
+                         <input type="password" placeholder="Confirm your password" required>
+                    </div>
+               </div>
+               
+               <div class="button">
+                         <input type="submit" value="Register">
+               </div>
+          </form>
+     </div>
+</body>
+</html>

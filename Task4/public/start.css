@@ -1,0 +1,17 @@
+body{
+     background: url("\task 4.png");
+     background-size: cover;
+}
+button{
+     width: 250px;
+     height: 70px;
+     font-size: 40px;
+     border-radius: 20px;
+     position: absolute;
+     top: 260px;
+     left: 150px;
+     background-color: rgb(248, 192, 129);
+     color:whitesmoke;
+     font-family: "Sour Gummy", sans-serif;
+     cursor: pointer;
+}
