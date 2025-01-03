@@ -13,7 +13,7 @@
      <h1>Edit the chat here</h1>
      <h2><b>ID: <%=chat._id%></b></h2>
      <p>This chat is sent from... : <b><%=chat.from%></b> to <b><%=chat.to%></b></p>
-     <form method="POST" action="/chats/<%=chat._id%>?_method=PUT">
+     <form method="POST" action="https://chat-app-hm8b.onrender.com/chats/<%=chat._id%>?_method=PUT">
           <textarea name="msg" rows="10" cols="50" placeholder="write your edit messgae here...."><%=chat.msg%></textarea>
           <br/>
           <br/>
