@@ -11,7 +11,7 @@
 </head>
 <body>
      <h1>All Chats</h1>
-     <form method="GET" action="/chats/new">
+     <form method="GET" action="https://chat-app-hm8b.onrender.com/chats/new">
           <button class="new"> New chat </button>
      </form>
      <% for(let chat of chats ){ %>
@@ -20,10 +20,10 @@
                     <p class="from">From : <%=chat.from%></p>
                     <div class="msg">
                          <p class="message"><%=chat.msg%></p>
-                         <form method="GET" action="/chats/<%=chat._id%>/edit">
+                         <form method="GET" action="https://chat-app-hm8b.onrender.com/chats/<%=chat._id%>/edit">
                               <button class="edit">Edit</button>
                          </form>
-                         <form method="POST" action="/chats/<%=chat._id%>?_method=DELETE">
+                         <form method="POST" action="https://chat-app-hm8b.onrender.com/chats/<%=chat._id%>?_method=DELETE">
                               <button class="delete">Delete</button>
                          </form>
                     </div>
