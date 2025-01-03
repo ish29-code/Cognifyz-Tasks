@@ -19,3 +19,15 @@ button:hover{
      box-shadow: 5px 5px #56585867;
      transition: 0.5s;
 }
+@media (max-width: 768px){
+     button{
+          width: 200px;
+          height: 50px;
+          font-size: 30px;
+          top: 200px;
+          left: 100px;
+     }
+     body{
+          background: none;
+     }
+}
