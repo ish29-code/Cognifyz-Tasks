@@ -11,19 +11,19 @@
 </head>
 <body>
      <h1>Daily Posts</h1>
-     <form class="new" method="get" action="http://localhost:5000/posts/new">
+     <form class="new" method="get" action="https://posts-app-eon4.onrender.com/posts/new">
           <button>Create new post</button>
      </form>
      <% for(post of posts){%>
           <div class="post">
                <div class="contents">
-                    <h3 class="username"><%= post.username %><a class="see" href="http://localhost:5000/posts/<%=post.id%>">See detail post</a></h3>
+                    <h3 class="username"><%= post.username %><a class="see" href="https://posts-app-eon4.onrender.com/posts/<%=post.id%>">See detail post</a></h3>
                     <h4 class="content"><%= post.content %></h4>
 
-                    <!--<form class="see" method="get" action="http://localhost:5000/posts/<%=post.id%>">
+                    <!--<form class="see" method="get" action="https://posts-app-eon4.onrender.com/posts/<%=post.id%>">
                          <button>See post in detail</button>
                     </form>-->
-                    <form class="edit" method="post" action="http://localhost:5000/posts/<%=post.id%>/edit"><button>Edit </button></form>
+                    <form class="edit" method="post" action="https://posts-app-eon4.onrender.com/posts/<%=post.id%>/edit"><button>Edit </button></form>
                     <form class="delete" action="/posts/<%= post.id %>?_method=DELETE" method="POST"><button type="submit">Delete</button></form>
                    <!-- other HTML code for displaying posts -->
                </div>
